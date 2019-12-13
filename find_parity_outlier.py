@@ -1,4 +1,4 @@
-python
+
 def find_outlier(integers):
     '''
     count number of even integers in integers[:3]
