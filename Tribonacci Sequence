@@ -1,4 +1,4 @@
-'''Python
+'''
 def tribonacci(signature, n):
     result = []
     for i in range(n):
