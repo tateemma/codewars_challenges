@@ -1,0 +1,15 @@
+```python
+def find_outlier(integers):
+    '''
+    count number of even integers in integers[:3]
+    if there are more than 1 even integers, find the odd integer
+    else find the even integer
+    '''
+    temp = 0
+    count = sum([temp+1 for i in integers[:3] if i%2 == 0])  
+    if count > 1: 
+        outlier = next(x for x in integers if x % 2 == 1 )    
+    else:
+        outlier = next(x for x in integers if x % 2 == 0 )
+    return outlier
+```
