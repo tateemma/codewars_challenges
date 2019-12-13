@@ -1,4 +1,4 @@
-```python
+python
 def find_outlier(integers):
     '''
     count number of even integers in integers[:3]
@@ -12,4 +12,4 @@ def find_outlier(integers):
     else:
         outlier = next(x for x in integers if x % 2 == 0 )
     return outlier
-```
+
